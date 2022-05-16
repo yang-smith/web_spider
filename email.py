@@ -17,11 +17,11 @@ if time.localtime(time.time()).tm_wday in range(0,4):
     
     mail = smtplib.SMTP()
     mail.connect("smtp.qq.com")   # 连接 qq 邮箱
-    mail.login("892065502@qq.com", "lhvgtxxsrtnlbcjg")   # 账号和授权码
-    mail.sendmail("892065502@qq.com", ["892065502@qq.com"], message.as_string())   # 发送账号、接收账号和邮件信息
+    mail.login("*******@qq.com", "*******")   # 账号和授权码
+    mail.sendmail("*******@qq.com", ["*******@qq.com"], message.as_string())   # 发送账号、接收账号和邮件信息
     
-    #from_addr ="892065502@qq.com"
-    #password = "lhvgtxxsrtnlbcjg"
+    #from_addr ="******@qq.com"
+    #password = "***********"
 
 
 
